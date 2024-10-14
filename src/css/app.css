@@ -1,11 +1,11 @@
 #img1 {
   position: absolute;
   left: 12%;
-  padding-top: 50px;
+  top: 100px;
 }
 
 #img2 {
   position: absolute;
   right: 12%;
-  padding-top: 50px;
+  top: 100px;
 }

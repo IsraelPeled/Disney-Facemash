@@ -1,0 +1,24 @@
+table {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-collapse: collapse;
+  width: 30%;
+  font-size: 18px;
+  background-color: rgba(116, 107, 171, 0.9);
+}
+
+th,
+td {
+  background-color: transparent;
+  color: black; /* צבע כיתוב */
+  z-index: 1;
+  position: relative;
+  text-align: left;
+  padding: 3px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(12, 12, 12, 0.5); /* רקע שורה חצי שקוף */
+}

@@ -1,7 +1,14 @@
+import Table from "./Components/table";
+import "./css/table.css";
+import "./css/app.css";
 import Card from "./Components/Card";
 import Navbar from "./Components/Navbar";
-import "./app.css";
 function App() {
+  const rows = [];
+  for (let i = 0; i < 5; i++) {
+    rows.push(<Table key={i} name="Baloo" score={i} />);
+  }
+
   return (
     <>
       <Navbar />
@@ -19,6 +26,13 @@ function App() {
           name="Superman"
         />
       </div>
+      <table>
+        <tr>
+          <th>Character</th>
+          <th>Score</th>
+        </tr>
+        <tbody>{rows}</tbody>
+      </table>
     </>
   );
 }

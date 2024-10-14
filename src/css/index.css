@@ -8,7 +8,7 @@
 }
 
 body {
-  background: url("./assets/disneyCastle.jpg");
+  background: url("../assets/disneyCastle.jpg");
   background-size: cover;
   background-position: center;
   min-height: 100vh;

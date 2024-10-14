@@ -1,6 +1,6 @@
 .card {
   width: 500px;
-  border: 2px solid grey;
+  border: 1px solid rgb(179, 179, 179);
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
@@ -20,9 +20,17 @@
 }
 
 #red {
-  background-color: red;
+  background-color: rgba(255, 0, 0, 0.7);
+}
+
+#red:hover {
+  background-color: rgba(255, 0, 0, 0.9);
 }
 
 #blue {
-  background-color: dodgerblue;
+  background-color: rgba(30, 144, 255, 0.7);
+}
+
+#blue:hover {
+  background-color: rgba(30, 144, 255, 0.9);
 }

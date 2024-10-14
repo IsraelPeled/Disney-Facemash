@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "../css/Navbar.css";
 import logo from "../assets/disneyIcon.png";
 function Navbar() {
   return (

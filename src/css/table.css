@@ -5,16 +5,20 @@ table {
   transform: translateX(-50%);
   border-collapse: collapse;
   width: 30%;
-  font-size: 30px;
+  font-size: 18px;
+  background-color: rgba(116, 107, 171, 0.9);
 }
 
 th,
 td {
+  background-color: transparent;
+  color: black; /* צבע כיתוב */
+  z-index: 1;
   position: relative;
   text-align: left;
-  padding: 8px;
+  padding: 3px;
 }
 
 tr:nth-child(even) {
-  background-color: #d6eeee;
+  background-color: rgba(12, 12, 12, 0.5); /* רקע שורה חצי שקוף */
 }

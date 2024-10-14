@@ -1,4 +1,4 @@
-import Table from "./table";
+import Table from "./Components/table";
 import "./css/table.css";
 import "./css/app.css";
 import Card from "./Components/Card";

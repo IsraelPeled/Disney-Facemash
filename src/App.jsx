@@ -1,7 +1,8 @@
-import Card from "./Card";
 import Table from "./table";
 import "./css/table.css";
 import "./css/app.css";
+import Card from "./Components/Card";
+import Navbar from "./Components/Navbar";
 function App() {
   const rows = [];
   for (let i = 0; i < 5; i++) {
@@ -10,6 +11,7 @@ function App() {
 
   return (
     <>
+      <Navbar />
       <div id="img1">
         <Card
           id="red"

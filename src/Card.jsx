@@ -1,7 +1,8 @@
+import "./card.css";
 function Card(props) {
   return (
     <>
-      <div>
+      <div className="card" id={props.id}>
         <img src={props.image}></img>
         <h1>{props.name}</h1>
       </div>

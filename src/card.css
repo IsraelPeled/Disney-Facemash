@@ -1,0 +1,28 @@
+.card {
+  width: 500px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+.card img {
+  width: auto;
+  height: auto;
+}
+
+.card h1 {
+  margin: 0;
+  padding: 10px;
+  color: #333;
+}
+
+#red {
+  background-color: red;
+}
+
+#blue {
+  background-color: dodgerblue;
+}

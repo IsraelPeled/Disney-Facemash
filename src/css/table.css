@@ -1,0 +1,20 @@
+table {
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-collapse: collapse;
+  width: 30%;
+  font-size: 30px;
+}
+
+th,
+td {
+  position: relative;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #d6eeee;
+}

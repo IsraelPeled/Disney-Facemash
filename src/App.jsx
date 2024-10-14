@@ -1,6 +1,13 @@
 import Card from "./Card";
-import "./app.css";
+import Table from "./table";
+import "./css/table.css";
+import "./css/app.css";
 function App() {
+  const rows = [];
+  for (let i = 0; i < 5; i++) {
+    rows.push(<Table key={i} name="Baloo" score={i} />);
+  }
+
   return (
     <>
       <div id="img1">
@@ -17,6 +24,13 @@ function App() {
           name="Superman"
         />
       </div>
+      <table>
+        <tr>
+          <th>Character</th>
+          <th>Score</th>
+        </tr>
+        <tbody>{rows}</tbody>
+      </table>
     </>
   );
 }
